@@ -10,7 +10,10 @@ function sendEmailCustom( email, name) {
             auth: {
                 user:process.env.USER_EMAIL,
                 pass:process.env.USER_EMAIL_PASS
-            }
+            },
+             tls: {
+    rejectUnauthorized: false            // prevents TLS errors on Render
+  }
         }
     )
     connectingEmail.sendMail({
