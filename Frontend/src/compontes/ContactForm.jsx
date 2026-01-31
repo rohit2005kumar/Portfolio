@@ -30,7 +30,7 @@ const ContactForm = () => {
       subject:input.inp3,
       message:Message
     }
-   const data= await axios.post('http://localhost:8080/connect',{userinfo})
+   const data= await axios.post('https://portfolio-backend-azip.onrender.com/connect',{userinfo})
 
     toast(data.data)
     setInput(()=>{return{inp1:'',inp3:'',inp2:''}})
