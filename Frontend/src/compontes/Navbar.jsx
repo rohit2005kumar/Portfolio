@@ -14,7 +14,11 @@ const Navbar = () => {
             <nav className='bg-black border border-gray-800 flex gap-4  justify-between items-center h-14 p-2 w-full sticky top-0 sm:w-full'>
                 
                 <div className='p-2 w-auto '>
+<<<<<<< HEAD
                     <h2 className='font-extrabold text-2xl'>CodeWithMe</h2>
+=======
+                    <h2 className='font-extrabold text-2xl'>Apna Developer</h2>
+>>>>>>> c35557581e1e15227bbe74e58fa8df71f267adc6
                 </div>
                 <div className='h-13 w-[60%] hidden sm:flex  justify-center items-center gap-24 bg-[#0a0a0a]  rounded-2xl text-gray-500'>
 

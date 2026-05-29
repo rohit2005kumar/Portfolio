@@ -16,7 +16,11 @@ const Contact = () => {
     // </> 
      <>
     <div className='flex flex-col justify-center items-center'>
+<<<<<<< HEAD
        <span className='sm:text-5xl text-3xl font-bold hover:underline active:underline  text-[#19d5fb]'>Contact info</span>
+=======
+       <span className='sm:text-5xl text-3xl font-bold hover:underline active:underline  text-[#19d5fb]'>Conatact info</span>
+>>>>>>> c35557581e1e15227bbe74e58fa8df71f267adc6
        <div  className=' sm:flex-row flex justify-center items-center gap-4 m-5 flex-col sm:w-full '>
        {/* <div className='flex gap-4'> */}
       <div className='flex flex-col gap-4'>

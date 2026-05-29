@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState ,useRef, useEffect} from 'react'
 
 const ProjectCard = ({ image, heading, desc, height, projectlink }) => {
@@ -38,6 +39,20 @@ const ProjectCard = ({ image, heading, desc, height, projectlink }) => {
         </div>
 
     )
+=======
+import React from 'react'
+
+const ProjectCard = ({image,heading,desc}) => {
+  return (
+    <div className='sm:w-[30%] border rounded-2xl '>
+        <img src={image} alt="img" className='h-50 w-full rounded-t-2xl' />
+        <div className='flex flex-col gap-4 p-2'>
+            <span className='font-black text-2xl'>{heading}</span>
+        <p>{desc}</p>
+        </div>
+    </div>
+  )
+>>>>>>> c35557581e1e15227bbe74e58fa8df71f267adc6
 }
 
 export default ProjectCard

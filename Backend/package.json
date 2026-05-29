@@ -7,6 +7,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev":"nodemon app.js"
     
@@ -25,5 +26,15 @@
     "nodemailer": "^7.0.12",
     "streamifier": "^0.1.1",
     "twilio": "^5.12.0"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "nodemailer": "^7.0.12"
+>>>>>>> c35557581e1e15227bbe74e58fa8df71f267adc6
   }
 }

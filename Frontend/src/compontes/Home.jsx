@@ -4,12 +4,18 @@ import img1 from '../assets/img1.jpeg'
 import SocialIcons from './SocialIcons.jsx';
 import download from './download.js';
 import { sendemail } from './ccontactbtncliks.js';
+<<<<<<< HEAD
 import { usePortfoiloHook } from '../hooks/portfoiloHook.jsx';
 import ImageSkeleton from './ImageSkeleton.jsx';
 // import download from './download.js';
 
 const Home = () => {
   const {assets,loading}=usePortfoiloHook()
+=======
+// import download from './download.js';
+
+const Home = () => {
+>>>>>>> c35557581e1e15227bbe74e58fa8df71f267adc6
   return (
     <>
     <div className='flex sm:flex-col flex-col justify-center gap-4 ml-4'>
@@ -28,10 +34,15 @@ const Home = () => {
   
       </div>
     <div className='sm:w-[25%] w-full border rounded-3xl h-100 border-gray-400   '>
+<<<<<<< HEAD
 {
   loading ? <ImageSkeleton/> :       <img src={assets[0]?.homeImage.secure_Url} alt="img" className=' h-100 border border-gray-500 rounded-2xl w-full'/>
 
 }    </div>
+=======
+      <img src={img1} alt="img" className=' h-100 border border-gray-500 rounded-2xl w-full'/>
+    </div>
+>>>>>>> c35557581e1e15227bbe74e58fa8df71f267adc6
     </div>
     <div className='flex gap-4 m-8 sm:flex-row flex-col'>
       <div className='bg-[rgba(125,131,139,0.15)]  p-8 border border-gray-500  rounded-2xl hover:shadow-2s shadow-amber-50'><div className='flex flex-col justify-center items-center font-semibold gap-2'><span className='text-3xl  text-[#19d5fb]!'>10+</span><p className='text-center' >Projects Completed</p></div></div>
