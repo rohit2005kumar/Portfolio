@@ -1,10 +1,9 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import { ToastContainer,toast } from 'react-toastify'
-<<<<<<< HEAD
+
 import { sendContactPeopleData } from '../services/contactPeople'
-=======
->>>>>>> c35557581e1e15227bbe74e58fa8df71f267adc6
+
 
 const ContactForm = () => {
   const [input, setInput] = useState({ inp1: '', inp2: '', inp3: '' })
@@ -33,7 +32,6 @@ const ContactForm = () => {
       email:input.inp2,
       subject:input.inp3,
       message:Message
-<<<<<<< HEAD
     }//https://portfolio-backend-azip.onrender.com/connect
     try {
       const res= await sendContactPeopleData(userinfo);
@@ -48,16 +46,8 @@ const ContactForm = () => {
    
    
     
-=======
-    }
-   const data= await axios.post('https://portfolio-backend-azip.onrender.com/connect',{userinfo})
 
-    toast(data.data)
-    setInput(()=>{return{inp1:'',inp3:'',inp2:''}})
-    setMessage('')
-    console.log(data)
->>>>>>> c35557581e1e15227bbe74e58fa8df71f267adc6
-  }
+}
   return (<>
     <div className='w-full sm:w-[35%]'>
       <form onSubmit={(e)=>{e.preventDefault()}} className='flex flex-col justify-center items-center gap-4  p-2 rounded-2xl  bg-[rgba(128,128,128,0.20)]'>

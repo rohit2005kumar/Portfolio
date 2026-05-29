@@ -4,7 +4,6 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineWork } from "react-icons/md";
 import { FaReadme } from "react-icons/fa";
 import download from './download.js';
-<<<<<<< HEAD
 import { usePortfoiloHook } from '../hooks/portfoiloHook.jsx';
 import Spinner from './Spinner.jsx';
 import ImageSkeleton from './ImageSkeleton.jsx';
@@ -14,25 +13,19 @@ const About = () => {
 
   return (
     
-=======
 
-const About = () => {
-  return (
->>>>>>> c35557581e1e15227bbe74e58fa8df71f267adc6
     <>
      <div className='flex flex-col justify-center items-center '>
       <span className='sm:text-5xl text-3xl font-bold underline text-[#19d5fb]'>About Me</span>
        <div className='flex gap-4 justify-between m-5 sm:flex-row flex-col  '>
         <div className='sm:w-[35%] h-120 w-full'>
-<<<<<<< HEAD
+
           <div className='w-full h-120 rounded-2xl sm:mt-5'>
             {
               loading ? <ImageSkeleton/> : <img src={assets[0]?.aboutImage.secure_Url} alt="img" className='w-full h-120 rounded-2xl sm:mt-5 ' />
             }
             </div>
-=======
-          <div><img src={img} alt="img" className='w-full h-120 rounded-2xl sm:mt-5 ' /></div>
->>>>>>> c35557581e1e15227bbe74e58fa8df71f267adc6
+
 
         </div>
         <div className='sm:w-[55%] w-full text-gray-400 flex flex-col gap-10'>
