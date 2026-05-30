@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../assets/img2.jpeg'
+
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineWork } from "react-icons/md";
 import { FaReadme } from "react-icons/fa";

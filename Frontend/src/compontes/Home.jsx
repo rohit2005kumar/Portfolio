@@ -1,6 +1,6 @@
 import React from 'react'
 import TextType from './TextType';
-import img1 from '../assets/img1.jpeg'
+
 import SocialIcons from './SocialIcons.jsx';
 import download from './download.js';
 import { sendemail } from './ccontactbtncliks.js';

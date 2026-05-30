@@ -1,8 +1,6 @@
 
 import React, { useState } from 'react'
 import ProjectCard from './ProjectCard'
-import project1 from '../assets/project1.png'
-import project2 from '../assets/project2.png'
 import { useAuthcontext } from '../hooks/authhook'
 const Projects = () => {
   const{allProjects}=useAuthcontext()
